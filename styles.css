@@ -39,8 +39,14 @@ nav ul li a {
 /* Home Section */
 #home {
     text-align: center;
-    padding: 2rem;
+    padding: 15rem;
     background: #e8f5e9;
+    background-image: url('vast-cropfilled-agricultural-expanse-generative-ai_972075-4518.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color:white;
+      
 }
 
 #home h2 {
@@ -67,25 +73,73 @@ nav ul li a {
 }
 
 /* Features Section */
+
 #features {
-    padding: 2rem;
-    background: #f1f8e9;
+    background-color: rgb(55, 47, 47); 
+    padding: 50px 20px;
     text-align: center;
 }
 
 #features h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: whitesmoke; 
 }
 
-#features ul {
-    list-style: none;
-    padding: 0;
+/* Feature Box Styling */
+.feature-box {
+    background:wheat;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-#features ul li {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
+.feature-box:hover {
+    transform: scale(1.02);
+}
+
+/* Image Styling */
+.feature-box img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Feature Text Styling */
+.feature-text {
+    flex: 1;
+}
+
+.feature-text h3 {
+    font-size: 28px;
+    color: #16a085; 
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.feature-text ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.feature-text li {
+    font-size: 16px;
+    color: #444;
+    padding: 5px 0;
 }
 
 /* Footer */
@@ -104,11 +158,11 @@ header {
 }
 
 .form-box {
-    max-width: 800px;
+    max-width: 550px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -120,7 +174,7 @@ header {
 form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 label {
@@ -131,7 +185,7 @@ label {
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -154,6 +208,47 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
+
+footer p {
+      margin: 0;
+}
+
+
+/* Contact us */
+#contact {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 20px;
+    max-width: 400px;
+}
+
+#contact ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 
 footer p {
     margin: 0;
